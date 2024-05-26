@@ -1,0 +1,30 @@
+.movie-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    padding: 16px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .movie-card h2 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+  }
+  
+  .movie-card p {
+    margin: 0.5em 0;
+    color: #555;
+  }
+  
